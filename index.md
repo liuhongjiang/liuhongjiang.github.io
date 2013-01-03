@@ -8,7 +8,7 @@ tagline: Supporting tagline
 Welcome! 欢迎来到这里！
 
 我是刘洪江，今年30好几了，目前一事无成，
-一个码拢，[tech](http://liuhongjiang.github.com)
+一个码农，[tech](http://liuhongjiang.github.com)
 
 <div class='section'>
 <h1 id='work'>工作</h1>
@@ -17,7 +17,7 @@ Welcome! 欢迎来到这里！
 
 </div>
 
-<div class='section'>
+<div id='blog-posts-list' class='section'>
 <h1 id='blogs'>博客</h1>
 
 <p>我有一个技术博客<em><a href="http://liuhongjiang.github.com">刘洪江的流水帐</a></em>，开始于2012年11月，记录了个人工作和学习，近期文章：</p>
@@ -103,5 +103,7 @@ Here's a sample "posts list".
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+
+
 
 
