@@ -6,4 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<h2>Coming Soon</h2>
+<h1 class="emphnext">{{ page.title }}</h1>
+
+Coming Soon
+
