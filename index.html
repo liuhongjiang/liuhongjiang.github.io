@@ -46,17 +46,17 @@
 	
 <p>Welcome! 欢迎来到这里！</p>
 
-<p>我是刘洪江，今年30好几了，目前一事无成， 一个码农，<a href='http://liuhongjiang.github.com'>tech</a></p>
+<p>我是刘洪江，今年30好几了，目前一事无成， 一个码农。
 <div class='section'>
 <h1 id='work'>工作</h1>
 
-一个码拢，[tech](http://liuhongjiang.github.com)
+<p>一个码农。</p>
 
 </div><div class='section' id='blog-posts-list'>
 <h1 id='blogs'>博客</h1>
 
-<p>我有一个技术博客<em><a href='http://liuhongjiang.github.com'>刘洪江的流水帐</a></em>，开始于2012年11月，记录了个人工作和学习，近期文章：</p>
-<p class="loading"> loading </p>
+<p>我有一个技术博客<em><a href='http://liuhongjiang.github.com/tech/'>刘洪江的流水帐</a></em>，开始于2012年11月，记录了个人工作和学习，近期文章：</p>
+<p class="loading"> loading blog list</p>
 
 </div><div class='section'>
 <p>另外还有一个生活博客<em><a href='http://liuhongjiang.gitbub.com/life/'>小结其绳</a></em>，由左爸和左妈共同更新，收集了我们生活的点点滴滴：</p>
@@ -91,7 +91,7 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $.getJSON("https://github.com/liuhongjiang/liuhongjiang.github.com/tree/master/javascripts/recent.json",function(data){
+        $.getJSON("https://liuhongjiang.github.com/tech/javascripts/recent-post.json",function(data){
             var content ="<ul class=\"compact recent\">";
             $.each(data,function(i,item){
                 content += "<li><span class=\"date\">"+ item.date + "</span><a href=\""+item.url+"\">"+ item.title +"</a></li>";
