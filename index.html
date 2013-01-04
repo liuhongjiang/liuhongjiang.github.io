@@ -93,8 +93,13 @@
     $(document).ready(function() {
         $.getJSON("http://liuhongjiang.github.com/tech/javascripts/recent-post.json",function(data){
             var content ="<ul class=\"compact recent\">";
+            var i = 0;
             $.each(data,function(i,item){
-                content += "<li><span class=\"date\">"+ item.date + "</span><a href=\""+item.url+"\">"+ item.title +"</a></li>";
+                if (i < 3)
+                {
+                    content += "<li><span class=\"date\">"+ item.date + "</span><a href=\""+item.url+"\">"+ item.title +"</a></li>";
+                }
+                i += 1;
             });
             content +="</ul>";
             $("#blog-posts-list .loading").remove();
