@@ -67,16 +67,22 @@
 
 <p class="loading"> Loading blog list...</p>
 
-</div><div class='section'>
-<h1 id='twitter'><a href='http://twitter.com/mdreid'>Twitter</a></h1>
+</div>
+<div class='section'>
+    <h1 id='twitter'><a href='http://twitter.com/mdreid'>Twitter</a></h1>
+    <div id='tweet'>
+        <p>Contacting Twitter&#8230;</p>
+    </div>
+</div>
 
-<div id='tweet'>
-<p>Contacting Twitter&#8230;</p>
+<div class='section'>
+    <h1 id='reading'><a href='http://book.douban.com/people/63148093/' title='豆瓣读书'>Reading</a></h1>
+    <div class='douban' id='douban-reading'>
+        <p class="loading"> Loading douban reading...</p>
+    </div>
 </div>
-</div>
+
 </div><!-- End Page -->
-
-
   
   <div id="footer">
   	<address>
@@ -95,41 +101,8 @@
 </div>
 
 <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $.getJSON("http://liuhongjiang.github.com/tech/javascripts/recent-post.json",function(data){
-            var content ="<ul class=\"compact recent\">";
-            var i = 0;
-            $.each(data,function(i,item){
-                if (i < 3)
-                {
-                    content += "<li><span class=\"date\">"+ item.date + "</span><a href=\""+item.url+"\">"+ item.title +"</a></li>";
-                }
-                i += 1;
-            });
-            content +="</ul>";
-            $("#tech-posts-list .loading").remove();
-            $("#tech-posts-list").append(content);
-        });
-    }); 
-    $(document).ready(function() {
-        $.getJSON("http://liuhongjiang.github.com/life/javascripts/recent-post.json",function(data){
-            var content ="<ul class=\"compact recent\">";
-            var i = 0;
-            $.each(data,function(i,item){
-                if (i < 3)
-                {
-                    content += "<li><span class=\"date\">"+ item.date + "</span><a href=\""+item.url+"\">"+ item.title +"</a></li>";
-                }
-                i += 1;
-            });
-            content +="</ul>";
-            $("#life-posts-list .loading").remove();
-            $("#life-posts-list").append(content);
-        });
-    }); 
-</script>
+<script type="text/javascript" src='/js/load-recent.js'></script>
+<script type="text/javascript" src='/js/douban-reading.js'></script>
 
 <!--[if IE 6]>
 <script type="text/javascript"> 
