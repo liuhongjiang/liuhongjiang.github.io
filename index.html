@@ -52,14 +52,17 @@
 
 <p>一个码农。</p>
 
-</div><div class='section' id='blog-posts-list'>
+</div><div class='section' id='tech-posts-list'>
 <h1 id='blogs'>博客</h1>
 
 <p>我有一个技术博客<em><a href='http://liuhongjiang.github.com/tech/'>刘洪江的流水帐</a></em>，开始于2012年11月，记录了个人工作和学习，近期文章：</p>
-<p class="loading"> loading blog list</p>
+<p class="loading"> Loading blog list...</p>
 
-</div><div class='section'>
+</div><div class='section' id='life-posts-list'>
 <p>另外还有一个生活博客<em><a href='http://liuhongjiang.gitbub.com/life/'>小结其绳</a></em>，由左爸和左妈共同更新，收集了我们生活的点点滴滴：</p>
+
+<p class="loading"> Loading blog list...</p>
+
 </div><div class='section'>
 <h1 id='twitter'><a href='http://twitter.com/mdreid'>Twitter</a></h1>
 
@@ -102,8 +105,24 @@
                 i += 1;
             });
             content +="</ul>";
-            $("#blog-posts-list .loading").remove();
-            $("#blog-posts-list").append(content);
+            $("#tech-posts-list .loading").remove();
+            $("#tech-posts-list").append(content);
+        });
+    }); 
+    $(document).ready(function() {
+        $.getJSON("http://liuhongjiang.github.com/life/javascripts/recent-post.json",function(data){
+            var content ="<ul class=\"compact recent\">";
+            var i = 0;
+            $.each(data,function(i,item){
+                if (i < 3)
+                {
+                    content += "<li><span class=\"date\">"+ item.date + "</span><a href=\""+item.url+"\">"+ item.title +"</a></li>";
+                }
+                i += 1;
+            });
+            content +="</ul>";
+            $("#life-posts-list .loading").remove();
+            $("#life-posts-list").append(content);
         });
     }); 
 </script>
