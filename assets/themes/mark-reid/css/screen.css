@@ -555,13 +555,13 @@ img.maruku-png { }
 .tag_box a {
 	padding: 0px 6px;
 	margin: 2px;
-	background: #ffe;
+	background: whitesmoke;
 	border-radius: 3px;
 	border:1px dashed #ccc;
 	text-decoration:none;
 }
 .tag_box a:hover {
-	background: #fea;
+	background: #fd8;
 }
 .tag_box a span{
 	vertical-align:super;
