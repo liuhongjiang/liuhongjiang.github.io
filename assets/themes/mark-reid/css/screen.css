@@ -560,6 +560,9 @@ img.maruku-png { }
 	border:1px dashed #ccc;
 	text-decoration:none;
 }
+.tag_box a:hover {
+	background: #fd8;
+}
 .tag_box a span{
 	vertical-align:super;
 	font-size:0.8em;
