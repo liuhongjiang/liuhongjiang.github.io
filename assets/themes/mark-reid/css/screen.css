@@ -232,10 +232,11 @@ ul.compact li a {
 }
 #header ul li { display: inline; }
 #header ul li a {
-	padding: 0.4em 0.3em 0 0.3em;
+/*	padding: 0.4em 0.3em 0 0.3em; */
 	display: inline;
 }
-#header ul li a:hover {
+#header ul li a:hover,
+.tag_box a:hover{
 	color: blue;
 	border-bottom: 2px solid blue;
 }
@@ -552,9 +553,9 @@ img.maruku-png { }
 	float:left;
 }
 .tag_box a {
-	padding: 3px 6px;
+	padding: 0px 3px;
 	margin: 2px;
-	background: #eee;
+	background: #ffd;
 	border-radius: 3px;
 	border:1px dashed #ccc;
 	text-decoration:none;
