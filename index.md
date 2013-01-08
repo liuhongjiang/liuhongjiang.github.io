@@ -35,8 +35,8 @@ I’m 刘洪江，一个互联网后台开发的码农，其实基本上什么�
 <div class="section">
     <h1 id="email">Email</h1>
     <div class="email">
-        <p><img src="/images/gmail.png"></img><img src="/images/gmail-address.png"></img><br/>
-        <img src="/images/qq-mail.gif"></img><img src="/images/qqmail-address.png"></img></p>
+        <img src="/images/gmail.png"><img src="/images/gmail-address.png"><br/>
+        <img src="/images/qq-mail.gif"><img src="/images/qqmail-address.png">
     </div>
 </div>
 
