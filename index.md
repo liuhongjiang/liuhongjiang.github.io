@@ -35,6 +35,14 @@ I’m 刘洪江，一个互联网后台开发的码农，其实基本上什么�
 </div>
 
 <div class="section">
+    <h1 id="email">Email</h1>
+    <div class="email">
+        <p><img src="/images/gmail.png"></img><img src="/images/gmail-address.png"></img><br/>
+        <img src="/images/qq-mail.gif"></img><img src="/images/qqmail-address.png"></img></p>
+    </div>
+</div>
+
+<div class="section">
     <h1 id="reading"><a href="http://book.douban.com/people/63148093/" title="豆瓣读书">Reading</a></h1>
     <div class="douban" id="douban-reading">
         <p class="loading"> Loading douban reading...</p>
