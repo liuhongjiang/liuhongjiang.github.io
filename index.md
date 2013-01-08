@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 主页
+title: 小结其绳
 tagline: Supporting tagline
 homepage: true
 ---
