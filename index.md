@@ -23,11 +23,12 @@ I’m 刘洪江，一个互联网后台开发的码农，其实基本上什么�
 <h1 id="blogs">博客</h1>
 
 <p>我有一个技术博客<em class="tag_box"><a href="/tech/" style="font-size:115%">刘洪江的流水帐</a></em>，开始于2012年11月，记录了个人工作和学习，近期文章：</p>
-<p class="loading"> Loading blog list...</p>
 
+<p class="loading"> Loading blog list...</p>
 </div>
 
 <div class="section" id="life-posts-list">
+
 <p>另外还有一个生活博客<em class="tag_box"><a href="/life/" style="font-size:115%">小结其绳</a></em>，由左爸和左妈共同更新，收集了我们生活的点点滴滴：</p>
 
 <p class="loading"> Loading blog list...</p>
