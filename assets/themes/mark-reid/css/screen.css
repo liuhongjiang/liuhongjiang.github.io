@@ -131,12 +131,14 @@ sup { line-height: 1ex; }
 	line-height: 1.714em;
 }
 blockquote {
-	padding: 0 2.8em;
-	margin: 1.714em 0;
-	color: #444;
+	padding: 0 1.8em;
+	margin: 0.2em 0 1em;
+	color: #888;
 	font-size: 0.875em;
 	line-height: 1.714em;
 }
+blockquote a { text-decoration: underline; color: #888; }
+
 li p {
 	 margin-bottom: 0;
 	 margin-top:  0;
