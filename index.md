@@ -50,7 +50,7 @@ I’m 刘洪江，一个互联网后台开发的码农，其实基本上什么�
 <div class="section">
     <h1 id="weibo"><a href="http://www.weibo.com/andewliuhj" title="新浪微博">微博</a></h1>
     <div>
-        <p><a href="http://weibo.com/u/1462341965?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1462341965/cf6aa5de/1.png"/></a></p>
+        <a href="http://weibo.com/u/1462341965?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1462341965/cf6aa5de/1.png"/></a>
     </div>
 </div>
 
