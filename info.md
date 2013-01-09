@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<h1 class="emphnext">{{ page.title }}</h1>
+# {{page.title}}
 
 ## 工作
 
@@ -22,6 +22,5 @@ group: navigation
 
 另外我还比较喜欢篮球和足球，也很喜欢户外运动，特别是登山和徒步。这两年由于要照顾左哥，运动的时间都少了。我还喜欢在网上下下围棋，打打麻将，拱拱猪，打打桥牌，不过都是学艺不精的那一类型。与唱歌跳舞这一类文艺活动绝缘。
 
------
 
 另外还有一份[内心的自白](/tech/about/)。

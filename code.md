@@ -1,10 +1,12 @@
 ---
 layout: page
-title: code
+title: 代码
+header : Code
+group: navigation
 ---
 {% include JB/setup %}
 
-<h1 class="emphnext">{{ page.title }}</h1>
+# {{page.title}}
 
 平时开发的一些代码，绝大部分可能为blog开发的，或个人学习时开发的（遵循 [The MIT License](http://opensource.org/licenses/mit-license.php)）：
 
