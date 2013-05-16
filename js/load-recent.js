@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.getJSON("http://liuhongjiang.github.com/tech/javascripts/recent-post.json",function(data){
+    $.getJSON("http://liuhongjiang.github.io/tech/javascripts/recent-post.json",function(data){
         var content ="<ul class=\"compact recent\">";
         var i = 0;
         $.each(data,function(i,item){
@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 }); 
 $(document).ready(function() {
-    $.getJSON("http://liuhongjiang.github.com/life/javascripts/recent-post.json",function(data){
+    $.getJSON("http://liuhongjiang.github.io/life/javascripts/recent-post.json",function(data){
         var content ="<ul class=\"compact recent\">";
         var i = 0;
         $.each(data,function(i,item){
