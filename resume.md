@@ -8,8 +8,6 @@ group: navigation
 
 # {{ page.title }}
 
-# 本页面正在更新中...
-
 ## 教育
 
 *学士*：2001.9 ～ 2005.7, [电子科技大学](http://www.uestc.edu.cn/) > 计算机科学与技术
@@ -19,8 +17,11 @@ group: navigation
 ## 工作
 
 目前就职于[Naver](http://www.naver.com/) China 成都分公司。
-工作中参与了多个项目，其中之一是参与开源项目关系型数据库[CUBRID](http://www.cubrid.org/)的[CUBRID Tools](http://www.cubrid.org/wiki_tools)开发，以及公司内部的数据库Monitoring平台CUNITOR的开发。
+
+工作中参与了多个项目的开发和管理，其中之一是参与开源项目关系型数据库[CUBRID](http://www.cubrid.org/)的[Tools](http://www.cubrid.org/wiki_tools)开发，以及公司内部的数据库Monitoring平台CUNITOR的开发。
+
 另外还参与了一个[Openstack](http://www.openstack.org/)的[Horizon](http://docs.openstack.org/developer/horizon/)项目开发。
+
 工作中，对Node.js, Python Django, JavaScript, [ElasticSearch](http://www.elasticsearch.org/)有所了解和学习。
 
 曾就职于百度，诺基亚西门子，盛大创新院。大部分时间是从事C/C++的开发。对互联网广告的反作弊有一定的了解，对搜索引擎中的文本抽取也有所了解。
