@@ -1,11 +1,11 @@
 $(document).ready(function() {
-    $.getJSON("http://liuhongjiang.github.io/tech/javascripts/recent-post.json",function(data){
+    $.getJSON("http://liuhongjiang.github.io/hexotech/api/list/recent.json",function(data){
         var content ="<ul class=\"compact recent\">";
         var i = 0;
-        $.each(data,function(i,item){
+        $.each(data['posts'],function(i,item){
             if (i < 3)
             {
-                content += "<li><span class=\"date\">"+ item.date + "</span><a href=\""+item.url+"\">"+ item.title +"</a></li>";
+                content += "<li><span class=\"date\">" + item.date.substring(0, 10) + "</span><a href=\""+item.permalink+"\">"+ item.title +"</a></li>";
             }
             i += 1;
         });

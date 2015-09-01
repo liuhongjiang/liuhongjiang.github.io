@@ -20,7 +20,7 @@ I’m 刘洪江，一个互联网后台开发的码农，其实基本上什么�
 <div class="section" id="tech-posts-list">
 <h1 id="blogs">博客</h1>
 
-<p>我有一个技术博客<em class="tag_box"><a href="/tech/" style="font-size:115%">刘洪江的流水帐</a></em>，开始于2012年11月，记录了个人工作和学习，近期文章：</p>
+<p>我有一个技术博客<em class="tag_box"><a href="/hexotech/" style="font-size:115%">刘洪江的流水帐</a></em>，开始于2012年11月，记录了个人工作和学习，近期文章：</p>
 
 <p class="loading"> Loading blog list...</p>
 </div>

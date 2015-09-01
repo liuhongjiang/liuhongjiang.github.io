@@ -196,6 +196,7 @@ ul.compact li span.date {
 	display: none;
 	color: grey;
 	width: 20%;
+	margin-right: 20px;
 }
 ul.compact li a {
 	width: 70%;
@@ -564,6 +565,8 @@ img.maruku-png { }
 	border-radius: 3px;
 	border:1px dashed #ccc;
 	text-decoration:none;
+	font-style: normal;
+	font-weight: bold;
 }
 .tag_box a:hover {
 	background: #feb;
