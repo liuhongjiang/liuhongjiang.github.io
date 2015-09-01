@@ -193,7 +193,7 @@ ul.compact li { list-style: ;
 	list-style-position: inside;
 }
 ul.compact li span.date {	
-	display: none;
+	/*display: none;*/
 	color: grey;
 	width: 20%;
 	margin-right: 20px;
